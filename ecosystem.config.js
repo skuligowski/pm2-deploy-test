@@ -1,7 +1,8 @@
 module.exports = {
   apps: [{
     name: 'pm-deploy-test',
-    script: './index.js'
+    script: './index.js',
+    instances: 3,
   }],
   deploy: {
     production: {
