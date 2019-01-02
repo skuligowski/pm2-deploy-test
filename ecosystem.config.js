@@ -2,8 +2,7 @@ module.exports = {
   apps: [{
     name: 'pm-deploy-test',
     script: './index.js',
-    instances: 3,
-    exec_mode: 'cluster_mode',
+    instances: 'max',
   }],
   deploy: {
     production: {
