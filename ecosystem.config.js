@@ -12,7 +12,7 @@ module.exports = {
       ref: 'origin/master',
       repo: 'git@github.com:skuligowski/pm2-deploy-test.git',
       path: '/home/osmc/pm2-deploy-test',
-      'post-deploy': 'npm install && pm2 startOrRestart ecosystem.config.js'
+      'post-deploy': 'npm install && pm2 startOrRestart ecosystem.config.js -i 2'
     }
   }
 }
